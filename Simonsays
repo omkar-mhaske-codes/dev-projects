@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>body{
+    text-align: center;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    border-radius: 20%;
+    margin: 1rem;
+}
+.container-top , .container-bottom{
+    display: flex;
+    justify-content: center;
+}
+#pink{
+    background-color: rgb(208, 110, 159);
+}
+#blue{
+    background-color: rgb(119, 119, 163);
+}
+#green{
+    background-color: rgb(65, 208, 156);
+}
+#yellow{
+    background-color: rgb(225, 131, 43);
+}</style>
+</head>
+<body>
+    <h1>Simon says Game</h1>
+    <h2>Press any key to start!</h2>
+    <div class="container">
+    <div class="container-top">
+        <div class="box" type="button" id="pink">1</div>
+        <div class="box" type="button" id="green">2</div>
+    </div>
+    <div class="container-bottom">
+        <div class="box" type="button" id="yellow">3</div>
+        <div class="box" type="button" id="blue">4</div>
+    </div>
+    </div>
+    <script src="script2.js"></script>
+</body>
+</html>
